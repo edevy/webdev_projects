@@ -1,0 +1,47 @@
+.container.main {
+    margin-top: 2.0em;
+}
+
+#box {
+    background-image: url("../images/Titanic.jpg");
+    height: 700px;
+    padding-top: 22px;
+}
+
+#frame {
+	margin-top:-18px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+body {
+	font-family: Roboto;
+background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title {
+    color: #FFFFFF;  
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+	0px 8px 13px rgba(0,0,0,0.2),
+	0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.item {
+	border-radius: 15px 15px 15px 15px;
+}
+
+ul {
+	color: #FFFFFF;
+	    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+	    0px 8px 13px rgba(0,0,0,0.1),
+	    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#myBtn {
+	margin-left: 48px;
+	font-size: 18px;
+    font-weight: 800;
+}

@@ -1,6 +1,25 @@
-<h1>Search For a Movie</h1>
-
-<form action="/results" method="GET">
-    <input type="text" placeholder="search term" name="search">
-    <input type="submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Make site responsive on mobile/tablet -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Movie Search Engine</title>
+		<link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="/stylesheets/search.css">
+	</head>
+		<body>
+            <div class="ui main text container">
+                <div id="title" class="ui huge header">Search For a Movie</div>
+                    <div id="box" class="item">
+                        <form action="/results" method="GET">
+                            <input id="bar" type="text" placeholder=" type keyword" name="search">
+                                <button class="ui floated basic white button" type="submit">Go!
+                                    <i class="right chevron icon"></i>
+                                </button>
+                        </form>
+                    </div>
+            </div>
+		</body>
+</html>
