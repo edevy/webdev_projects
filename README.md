@@ -12,3 +12,5 @@ as well as practiced new skillsets for full stack web development.
 * Authentication
 * PassportJS
 * Authorization
+
+This is the online course taught by Udemy instructor Colt Steele.
